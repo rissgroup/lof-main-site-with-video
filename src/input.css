@@ -257,12 +257,28 @@ body {
 	width: 100%;
 	z-index: 8;
   }
-/* .partner1{
-	background-image: url(../public/assets/partners/partner1.png);
+  .swiper-button-next {
+	background-image: url(../public/assets/icons/Right.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% auto;
 	background-position: center;
-} */
+  }
+  
+  .swiper-button-next::after {
+	display: none;
+  }
+
+
+  .swiper-button-prev {
+	background-image: url(../public/assets/icons/Left.png);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center;
+  }
+  
+  .swiper-button-prev::after {
+	display: none;
+  }
 
  .swiper-button-next,
  .swiper-button-prev {
