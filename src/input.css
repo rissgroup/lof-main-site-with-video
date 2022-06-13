@@ -262,6 +262,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	background-position: center;
+	width: calc(var(--swiper-navigation-size)/ 28 * 27) !important;
   }
   
   .swiper-button-next::after {
@@ -274,6 +275,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	background-position: center;
+	width: calc(var(--swiper-navigation-size)/ 28 * 27) !important;
   }
   
   .swiper-button-prev::after {
