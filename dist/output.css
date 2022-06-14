@@ -851,10 +851,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0px;
 }
 
-.pl-5 {
-  padding-left: 1.25rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -892,6 +888,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-medium {
@@ -975,6 +976,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&family=Smooch&display=swap');
+
 /* @charset "UTF-8";
     
     html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1014,6 +1017,24 @@ ul {
 html,
 body {
   overflow-x: hidden;
+}
+
+.smoth{
+  font-family: 'Smooch';
+}
+
+.hind{
+  font-family: 'Hind Vadodara';
+}
+
+.mono-font{
+  font-family: allround;
+}
+
+@font-face {
+  font-family: allround;
+
+  src: url(../public/fonts/All-Round-Gothic-Bold.ttf);
 }
 
 /* ************************ canves css start ************** */
